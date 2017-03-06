@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="background_y_offset_round">15dp</dimen>
+    <dimen name="background_y_offet">0dp</dimen>
+
+    <dimen name="digital_text_size">60dp</dimen>
+    <dimen name="digital_text_size_round">60dp</dimen>
+
+    <dimen name="digital_text_size_date">65dp</dimen>
+    <dimen name="digital_text_size_round_date">65dp</dimen>
+
+    <dimen name="digital_x_offset">95dp</dimen>
+    <dimen name="digital_x_offset_round">117dp</dimen>
+
+    <dimen name="digital_y_offset">100dp</dimen>
+    <dimen name="digital_y_offset_round">115dp</dimen>
+
+    <dimen name="digital_x_date_round">117dp</dimen>
+    <dimen name="digital_x_date">95dp</dimen>
+
+    <dimen name="digital_y_date_round">155dp</dimen>
+    <dimen name="digitial_y_date">140dp</dimen>
+
+    <dimen name="battery_y_round">130dp</dimen>
+    <dimen name="battery_y">115dp</dimen>
+</resources>

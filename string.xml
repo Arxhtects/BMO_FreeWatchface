@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BMO_freewatchface</string>
+    <string name="message">Watch face tapped</string>
+    <string name="my_digital_name">BMO</string>
+    <string name="title_activity_watchface_config">Watch Face Settings</string>
+</resources>

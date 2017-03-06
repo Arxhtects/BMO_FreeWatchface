@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/background"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Time Format"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/text_color"
+                android:id="@+id/textView2"
+                android:layout_marginLeft="25px"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:id="@+id/textView3"
+                tools:textStyle="bold"
+                android:textStyle="bold"
+                android:textColor="@color/text_color"
+                android:text="BMO Faces"
+                android:layout_below="@+id/rg_time"
+                android:layout_alignStart="@+id/textView2" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rg_face"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="311px"
+                android:paddingBottom="60px"
+                android:paddingRight="20px">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rhappy"
+                    android:buttonTint="@color/background"
+                    android:textColor="@color/text_color"
+                    android:text="Happy"
+                    android:layout_weight="1"
+                    android:layout_alignTop="@+id/rg_face"
+                    android:layout_alignStart="@+id/rg_time"
+                    android:paddingBottom="20px"
+                    android:paddingTop="20px" />
+
+                <RadioButton
+                    android:text="Sleepy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/background"
+                    android:textColor="@color/text_color"
+                    android:layout_below="@+id/rg_face"
+                    android:layout_alignStart="@+id/rg_time"
+                    android:id="@+id/rsleep"
+                    android:layout_weight="1"
+                    android:paddingBottom="20px"
+                    android:paddingTop="20px"/>
+
+                <RadioButton
+                    android:text="Cheerful"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/background"
+                    android:textColor="@color/text_color"
+                    android:layout_below="@+id/rg_face"
+                    android:layout_alignStart="@+id/rg_time"
+                    android:id="@+id/rcheerful"
+                    android:layout_weight="1"
+                    android:paddingBottom="20px"
+                    android:paddingTop="20px" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/background"
+                    android:textColor="@color/text_color"
+                    android:layout_below="@+id/rg_face"
+                    android:layout_alignStart="@+id/rg_time"
+                    android:id="@+id/rconfused"
+                    android:layout_weight="1"
+                    android:paddingBottom="20px"
+                    android:paddingTop="20px"
+                    android:text="Confused" />
+
+                <RadioButton
+                    android:text="Proud"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/background"
+                    android:textColor="@color/text_color"
+                    android:layout_below="@+id/rg_face"
+                    android:layout_alignStart="@+id/rg_time"
+                    android:id="@+id/rproud"
+                    android:layout_weight="1"
+                    android:paddingBottom="20px"
+                    android:paddingTop="20px" />
+
+                <RadioButton
+                    android:text="Devious"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/background"
+                    android:textColor="@color/text_color"
+                    android:layout_below="@+id/rg_face"
+                    android:layout_alignStart="@+id/rg_time"
+                    android:id="@+id/rdevious"
+                    android:layout_weight="1"
+                    android:paddingBottom="20px"
+                    android:paddingTop="20px" />
+
+                <RadioButton
+                    android:text="Really"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/background"
+                    android:textColor="@color/text_color"
+                    android:layout_below="@+id/rg_face"
+                    android:layout_alignStart="@+id/rg_time"
+                    android:id="@+id/rreally"
+                    android:layout_weight="1"
+                    android:paddingBottom="20px"
+                    android:paddingTop="20px" />
+
+                <RadioButton
+                    android:text="Terrified"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/background"
+                    android:textColor="@color/text_color"
+                    android:layout_below="@+id/rg_face"
+                    android:layout_alignStart="@+id/rg_time"
+                    android:id="@+id/rterrified"
+                    android:layout_weight="1"
+                    android:paddingBottom="20px"
+                    android:paddingTop="20px" />
+
+                <RadioButton
+                    android:text="Uneasy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/background"
+                    android:textColor="@color/text_color"
+                    android:layout_below="@+id/rg_face"
+                    android:layout_alignStart="@+id/rg_time"
+                    android:id="@+id/runeasy"
+                    android:layout_weight="1"
+                    android:paddingBottom="20px"
+                    android:paddingTop="20px" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:id="@+id/rg_time"
+                android:layout_marginLeft="-22px"
+                android:layout_below="@+id/textView2"
+                android:layout_alignStart="@+id/textView3">
+
+                <RadioButton
+                    android:text="24hr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/r24hr"
+
+                    android:buttonTint="@color/background"
+                    android:textColor="@color/text_color"
+                    android:layout_weight="1"
+                    android:paddingBottom="20px"
+                    android:paddingTop="20px" />
+
+                <RadioButton
+                    android:text="12hr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/r12hr"
+
+                    android:buttonTint="@color/background"
+                    android:textColor="@color/text_color"
+                    android:layout_weight="1"
+                    android:paddingBottom="20px"
+                    android:paddingTop="20px" />
+            </RadioGroup>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
